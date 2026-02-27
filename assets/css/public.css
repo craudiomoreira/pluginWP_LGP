@@ -1,0 +1,85 @@
+#lgpd-consent-modal {
+    display: none !important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+#lgpd-consent-modal.show {
+    display: flex !important;
+}
+#lgpd-consent-modal.v-top {
+    align-items: flex-start;
+    padding-top: 40px;
+}
+#lgpd-consent-modal.v-bottom {
+    align-items: flex-end;
+    padding-bottom: 40px;
+}
+#lgpd-consent-modal.h-left {
+    justify-content: flex-start;
+    padding-left: 40px;
+}
+#lgpd-consent-modal.h-right {
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+.lgpd-modal-content {
+    width: 100%;
+    max-width: 600px;
+    background: #ffffff;
+    padding: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+}
+.lgpd-modal-header {
+    width: 100%;
+    background: #f5f5f5;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.lgpd-modal-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+.lgpd-modal-body {
+    padding: 30px;
+    text-align: center;
+}
+.lgpd-modal-body p {
+    margin: 0 0 30px 0;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.lgpd-modal-body p a {
+    color: inherit;
+    text-decoration: underline;
+}
+.lgpd-buttons-wrapper {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lgpd-button {
+    min-width: 150px;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    transition: opacity 0.2s ease;
+    text-transform: uppercase;
+}
+.lgpd-button:hover { 
+    opacity: 0.85; 
+}

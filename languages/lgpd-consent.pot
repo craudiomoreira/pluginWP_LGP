@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The WordPress project.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LGPD Consent Modal 1.0\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plugin-lgpd.php: activation
+msgid "We use cookies to improve your experience."
+msgstr ""
+
+#: includes/public-frontend.php: shortcodes
+msgid "Learn more"
+msgstr ""
+
+#: includes/public-frontend.php: shortcodes
+msgid "Accept"
+msgstr ""
+
+#: includes/public-frontend.php: shortcodes
+msgid "Close"
+msgstr ""
+
+#: includes/admin-settings.php
+msgid "Ativar modal"
+msgstr ""
+
+#: includes/admin-settings.php
+msgid "Título do modal"
+msgstr ""
+
+#: includes/admin-settings.php
+msgid "Texto do consentimento"
+msgstr ""
+
+#: includes/admin-settings.php
+msgid "URL das regras"
+msgstr ""
+
+#: includes/admin-settings.php
+msgid "Fonte (Google Fonts)"
+msgstr ""
+
+#: includes/admin-settings.php
+msgid "Tamanho da fonte"
+msgstr ""
+
+#: includes/admin-settings.php
+msgid "Cor de fundo"
+msgstr ""
+
+#: includes/admin-settings.php
+msgid "Cor da fonte"
+msgstr ""
+
+#: includes/admin-settings.php
+msgid "Cor botão principal"
+msgstr ""
+
+#: includes/admin-settings.php
+msgid "Cor botão secundário"
+msgstr ""
+
+#: includes/admin-settings.php
+msgid "Tamanho fonte botões"
+msgstr ""
+
+#: includes/admin-settings.php
+msgid "Fonte dos botões (Google Fonts)"
+msgstr ""
+
+#: includes/admin-settings.php
+msgid "Duração do cookie (dias)"
+msgstr ""
+
+#: includes/admin-log.php
+msgid "LGPD Consent Logs"
+msgstr ""
+
+#: includes/admin-settings.php
+msgid "LGPD Consent Settings"
+msgstr ""
